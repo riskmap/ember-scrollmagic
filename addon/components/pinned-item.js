@@ -21,7 +21,7 @@ export const ScrollMagicPinnedMixin = Mixin.create(
   }),
 
   pinElementId: computed(function() {
-    return `scrollmagic-pin-${this.elementId}-target`;
+    return this.elementId;
   }),
 
   pinOptions: computed(function() {
